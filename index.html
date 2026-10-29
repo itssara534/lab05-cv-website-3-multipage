@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sara Ahmad | Home</title>
+  <meta name="description" content="Sara Ahmad - Junior Software Developer. Multi-page CV website in a single HTML file." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="nav">
+    <div class="container nav-inner">
+      <a href="#home" class="logo" data-page="home">Sara<span>.</span></a>
+      <button class="menu-btn" id="menuBtn" aria-label="Toggle menu">&#9776;</button>
+      <nav class="nav-links" id="navLinks">
+        <a href="#home" class="nav-link" data-page="home">Home</a>
+        <a href="#about" class="nav-link" data-page="about">About</a>
+        <a href="#projects" class="nav-link" data-page="projects">Projects</a>
+        <a href="#contact" class="nav-link" data-page="contact">Contact</a>
+          <a href="#certificates" class="nav-link" data-page="certificates">Certificates</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ================= PAGE 1: HOME ================= -->
+    <section class="page" id="page-home">
+      <div class="hero">
+        <div class="container hero-inner">
+          <div class="hero-text">
+            <p class="eyebrow">Hello, I'm</p>
+            <h1>Sara Ahmad</h1>
+            <h2>Junior Software Developer</h2>
+            <p class="lead">CS undergraduate skilled in C++, Python, SQL and Web Development. Passionate about problem-solving and software engineering.</p>
+            <div class="btn-row">
+              <a href="#projects" class="btn btn-primary" data-page="projects">View Projects</a>
+              <a href="#about" class="btn btn-ghost" data-page="about">About Me</a>
+            </div>
+          </div>
+          <div class="hero-photo">
+            <img src="Image.jpeg" alt="Sara Ahmad profile picture" class="avatar" />
+          </div>
+        </div>
+      </div>
+
+      <div class="section">
+        <div class="container">
+          <h3 class="section-title">Quick Overview</h3>
+          <div class="grid grid-3">
+            <a href="#about" class="card link-card" data-page="about"><h4>About &amp; Skills</h4><p>Education, skills, tools and languages.</p><span class="more">Read more &rarr;</span></a>
+            <a href="#projects" class="card link-card" data-page="projects"><h4>Projects</h4><p>Chrome extension, SQL module and DSA work.</p><span class="more">See projects &rarr;</span></a>
+            <a href="#contact" class="card link-card" data-page="contact"><h4>Contact</h4><p>Let's connect and build something great.</p><span class="more">Get in touch &rarr;</span></a>
+        
+  
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= PAGE 2: ABOUT ================= -->
+    <section class="page" id="page-about">
+      <div class="page-hero">
+        <div class="container">
+          <img src="Image.jpeg" alt="Sara Ahmad profile picture" class="avatar avatar-sm" />
+          <h1>About Me</h1>
+          <p>CS undergraduate skilled in C++, Python, SQL, and Web Development. Strong foundation in Data Structures and DBMS, with hands-on experience in building browser extensions and database projects.</p>
+          
+<div class="btn-row cv-buttons">
+  <a href="CV.pdf" target="_blank" rel="noopener"
+     class="btn btn-primary">View CV</a>
+
+  <a href="CV.pdf" download class="btn btn-ghost">
+    Download CV
+  </a>
+
+  <a href="#certificates" class="btn btn-ghost"
+     data-page="certificates">
+    View Certificates
+  </a>
+</div>
+
+        </div>
+      </div>
+
+      <div class="section">
+        <div class="container narrow">
+          <h3 class="section-title">Education</h3>
+          <div class="timeline">
+            <div class="t-item"><span class="t-date">2024 - 2028</span><h4>Bachelors in Computer Science</h4><p>Qarshi University, Lahore</p></div>
+            <div class="t-item"><span class="t-date">2022 - 2024</span><h4>Intermediate with Biology (FSc Pre-Medical)</h4><p>Kips College</p></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="section alt">
+        <div class="container">
+          <h3 class="section-title">Skills</h3>
+          <div class="grid grid-2">
+            <div class="card"><h4>Programming Languages</h4><div class="chips"><span>C++</span><span>Python</span><span>SQL</span><span>HTML5</span><span>CSS3</span><span>JavaScript</span></div></div>
+            <div class="card"><h4>Core CS Concepts</h4><div class="chips"><span>DSA</span><span>DBMS</span><span>Operating Systems</span><span>OOP</span></div></div>
+           
+<div class="card">
+  <h4>Tools &amp; Technologies</h4>
+  <div class="chips">
+    <span>SQL</span>
+    <span>Google Colab</span>
+    <span>Ubuntu / Linux</span>
+    <span>Git &amp; GitHub</span>
+    <span>MS Office Suite</span>
+    <span>AI Tools</span>
+  </div>
+</div>
+
+            <div class="card"><h4>Soft Skills</h4><div class="chips"><span>Problem-Solving</span><span>Algorithmic Thinking</span><span>Technical Documentation</span><span>Team Collaboration</span><span>Presentations</span></div></div>
+          </div>
+          
+<div class="card">
+  <h4>Creative &amp; Design Skills</h4>
+  <div class="chips">
+    <span>Graphic Designing</span>
+    <span>Logo Designing</span>
+    <span>Canva</span>
+    <span>AI-Assisted Creativity</span>
+  </div>
+</div>
+
+          <div class="card lang-card"><h4>Languages</h4><div class="chips"><span>English</span><span>Urdu</span><span>Arabic</span></div></div>
+        </div>
+      </div>
+    </section>
+
+<!-- ================= PAGE 3: PROJECTS ================= -->
+<section class="page" id="page-projects">
+  <div class="page-hero">
+    <div class="container">
+      <h1>Projects &amp; Experience</h1>
+      <p>A few things I've designed, built and learned from.</p>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="container">
+      <div class="grid grid-2">
+
+        <article class="card project">
+          <h4>Secure File Transfer Through Cryptography</h4>
+          <p class="sub">Cryptography-Based File Security</p>
+          <p>
+            Developed a secure file transfer system using key-based access
+            control. A key is generated for file sharing and provided to
+            both the sender and receiver. The receiver must enter the
+            correct key to access the transferred file, helping prevent
+            unauthorized access.
+          </p>
+          <div class="chips small">
+            <span>Cryptography</span>
+            <span>File Security</span>
+            <span>Access Control</span>
+          </div>
+        </article>
+
+        <article class="card project">
+          <h4>Urban Green Space Optimizer</h4>
+          <p class="sub">Data Structures &amp; Sustainable Urban Planning</p>
+          <p>
+            Developed a C++ project focused on urban green-space analysis
+            across Lahore's towns. It organizes information related to
+            tree distribution, oxygen contribution, environmental
+            conditions and air quality to help identify areas that may
+            need more green spaces. The project applies data structures
+            to support environmental analysis and sustainable planning.
+          </p>
+          <div class="chips small">
+            <span>C++</span>
+            <span>Data Structures</span>
+            <span>SDG 11</span>
+            <span>SDG 3</span>
+          </div>
+        </article>
+
+        <article class="card project">
+          <h4>Java Examination Preparation App</h4>
+          <p class="sub">Chapter-Wise Quizzes &amp; Timed Assessments</p>
+          <p>
+            Built a Java-based examination preparation application
+            featuring subjects, chapters and customizable MCQ quizzes.
+            Users can choose the number of questions, such as 15 or 20,
+            and attempt quizzes within a set time limit. When the timer
+            expires, quiz controls are disabled automatically and the
+            result is displayed, allowing users to assess their
+            preparation.
+          </p>
+          <div class="chips small">
+            <span>Java</span>
+            <span>NetBeans</span>
+            <span>GUI</span>
+            <span>MCQs</span>
+          </div>
+        </article>
+
+        <article class="card project">
+          <h4>Zen Glitch</h4>
+          <p class="sub">Anti-Procrastination Chrome Extension</p>
+          <p>
+            Designed a customizable work-break timer Chrome extension
+            to support productivity and reduce procrastination.
+            Implemented interactive interface components, ambient sound
+            integration and a dynamic screen overlay to help users
+            manage focused work and break sessions.
+          </p>
+          <div class="chips small">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+            <span>Chrome Extension</span>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+
+    <!-- ================= PAGE 4: CONTACT ================= -->
+    <section class="page" id="page-contact">
+      <div class="page-hero">
+        <div class="container">
+          <h1>Get In Touch</h1>
+          <p>Open to internships, collaborations and learning opportunities.</p>
+        </div>
+      </div>
+
+      <div class="section">
+        <div class="container narrow">
+          <div class="grid grid-2">
+            <div class="card contact-card">
+              <ul class="contact-list">
+                <li><strong>Email:</strong><br /><a href="mailto:itssara198@gmail.com">itssara198@gmail.com</a></li>
+                <li><strong>Phone:</strong><br /><a href="tel:+921234567893">+92 123-4567-898</a></li>
+                <li><strong>Location:</strong><br />Bahria Town, Lahore, Pakistan</li>
+                <li><strong>LinkedIn:</strong><br /><a href="https://www.linkedin.com/in/sara-ahmad-3b82b2364" target="_blank" rel="noopener">sara-ahmad-3b82b2364</a></li>
+              </ul>
+            </div>
+            <form class="card form" id="contactForm">
+              <h4>Send a message</h4>
+              <input type="text" id="name" placeholder="Your name" required />
+              <input type="email" id="email" placeholder="Your email" required />
+              <textarea id="message" rows="4" placeholder="Your message" required></textarea>
+              <button type="submit" class="btn btn-primary">Send</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+<!-- ================= PAGE 5: CERTIFICATES ================= -->
+<section class="page" id="page-certificates">
+  <div class="page-hero">
+    <div class="container">
+      <h1>My Certificates</h1>
+      <p>Courses and certifications that reflect my learning journey.</p>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="container">
+      <div class="grid grid-3 certificate-grid">
+
+        <article class="card certificate-card">
+          <h4>Use of AI Responsibly</h4>
+          <p>Responsible use of artificial intelligence.</p>
+          <a href="certificates/Use of AI Responsibly.pdf"
+             target="_blank" rel="noopener"
+             class="certificate-link">View Certificate ↗</a>
+        </article>
+
+        <article class="card certificate-card">
+          <h4>Google AI Essentials</h4>
+          <p>AI essentials course certification.</p>
+          <a href="certificates/Google AI Essentials.pdf"
+             target="_blank" rel="noopener"
+             class="certificate-link">View Certificate ↗</a>
+        </article>
+
+        <article class="card certificate-card">
+          <h4>Intro to AI course-era</h4>
+          <p>Introduction to artificial intelligence.</p>
+          <a href="certificates/Intro to AI course-era.pdf"
+             target="_blank" rel="noopener"
+             class="certificate-link">View Certificate ↗</a>
+        </article>
+
+        <article class="card certificate-card">
+          <h4>AI Fundamentals Certification</h4>
+          <p>Fundamental concepts of AI.</p>
+          <a href="certificates/AI Fundamentals Certification.pdf"
+             target="_blank" rel="noopener"
+             class="certificate-link">View Certificate ↗</a>
+        </article>
+
+        <article class="card certificate-card">
+          <h4>Discover the Art of Prompting</h4>
+          <p>Learning the basics of effective prompting.</p>
+          <a href="certificates/Discover the art of prompting.pdf"
+             target="_blank" rel="noopener"
+             class="certificate-link">View Certificate ↗</a>
+        </article>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+
+  </main>
+
+  <footer class="footer"><p>&copy; <span id="year"></span> Sara Ahmad. All rights reserved.</p></footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
